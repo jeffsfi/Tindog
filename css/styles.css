@@ -1,40 +1,52 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #FF4C68;
+  color: white;
+}
+
 h1 {
-font-family: 'Montserrat', sans-serif;
-font-weight: 900;
-font-size: 3rem;
-line-height: 1.5;
-color: white;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 .container-fluid {
   padding: 3% 15%;
 }
 
+/* Navbar styles */
+
 .navbar {
-  margin-left: -15px;
-  margin-right: -15px;
+  padding: 0 0 4.5rem;
 }
+
 .navbar-brand {
-  font-size: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .nav-link {
-  margin-left: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
 }
 
-.rotate {
-  -o-transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
-  -moz-transform: rotate(30deg);
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
-  margin-top: 8%;
+.nav-item {
+  padding: 0 18px;
 }
 
-.row {
-  margin-top: 8%;
+/* Download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
 }
 
-#title {
-  background-color: #FF4C68;
+/* Title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
 }
