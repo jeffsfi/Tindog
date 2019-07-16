@@ -19,7 +19,6 @@ h3 {
 
 p {
   color: #8f8f8f;
-  padding: 0 10%;
 }
 
 .container-fluid {
@@ -60,16 +59,21 @@ p {
   transform: rotate(25deg);
 }
 
+/* Features section */
+#features {
+  padding: 7% 15%;
+}
+
 .feature-style {
   text-align: center;
+  padding: 5%;
 }
 
-.fas {
-  font-size: 3.5rem;
+.icon {
   color: #ef8172;
-  padding: 20% 0 5% 0;
+  margin-bottom: 1.5rem;
 }
 
-.fas:hover {
+.icon:hover {
   color: #ff4c68;
 }
