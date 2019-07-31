@@ -127,11 +127,21 @@ p {
   padding: 3% 2%;
 }
 
+/* Call to Action */
+
+#cta {
+  background-color: #FF4C68;
+  color: white;
+  text-align: center;
+
+}
+
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
   }
-  
+
   .title-image {
     position: static;
     transform: rotate(0);
