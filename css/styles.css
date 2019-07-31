@@ -136,6 +136,15 @@ p {
 
 }
 
+/* Footer */
+#footer {
+  background-color: #FFF;
+  text-align: center;
+}
+
+.footer-icons {
+  padding: 8% 1.1% 1.5%;
+}
 
 @media (max-width: 1028px) {
   #title {
